@@ -1,9 +1,9 @@
 {
   "name": "mtogo-proto-provider",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "files": [
-    "*.proto"
+    "protos/*.proto"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
