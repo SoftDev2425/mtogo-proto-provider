@@ -1,5 +1,6 @@
 syntax = "proto3";
 
+// asd
 package basket;
 
 import "google/protobuf/timestamp.proto";
