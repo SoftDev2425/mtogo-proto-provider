@@ -28,7 +28,7 @@ jobs:
       - name: Version Bump (using standard-version)
         run: |
           npx standard-version --no-verify --commit-all
-          git push --follow-tags origin main
+          git push --follow-tags origin master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
